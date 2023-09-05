@@ -6,7 +6,7 @@ html, body {
 }
 
 main {
-    margin: 0 5% 0 5%;
+    margin: 0 1% 0 1%;
 }
 
 h1{
@@ -41,8 +41,14 @@ a {
 }
 
 .linkpark {
-    border: #000000 solid 5px;
-    border-radius: 10px;
+    border-left: #000000 solid 5px;
     margin: 10px 0 10px 0;
     padding: 0 5px 0 5px;
+}
+
+.white {
+    color: #000000;
+    background: #ffffff;
+    border: 1px #ffffff solid;
+    margin: 5px 0 5px 0;
 }
