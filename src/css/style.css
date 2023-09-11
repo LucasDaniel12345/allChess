@@ -44,7 +44,7 @@ a {
     border: #000000 solid 5px;
     border-radius: 10px;
     margin: 10px 10px 10px 10px;
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 .white {
@@ -64,4 +64,17 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* reponsividade */
+@media screen and (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
