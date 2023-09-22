@@ -1,14 +1,42 @@
 body, html {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#welcomke {
+a {
+    text-decoration: none;
     color: #ffffff;
-    background-color: #000000;
+}
+
+#end {
+    text-align: center;
+}
+
+#avs {
+    color: #ff0000;
 }
 
 .white {
     background-color: #ffffff;
     color: #000000;
+}
+
+.welcome {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 15px 5px 15px;
+}
+
+.conteudo {
+    margin: 0 1% 0 1%;
+}
+
+.history {
+    padding: 5px;
+    margin: 15px;
+
+    border-left: #000000 solid 5px;
 }
