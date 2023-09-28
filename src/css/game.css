@@ -1,0 +1,41 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    margin: 0;
+}
+
+#welcome {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 15px 5px 15px;
+}
+
+#white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#end {
+    text-align: center;
+}
+
+.cont {
+    margin: 1% 2% 0 2%;
+    padding: 0 5px 0 5px;
+}
+
+.chess p  {
+    border-left: #000000 solid 5px;
+    padding: 0 0 0 5px;
+} 
